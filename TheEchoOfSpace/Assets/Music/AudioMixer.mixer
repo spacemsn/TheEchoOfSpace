@@ -17,14 +17,16 @@ AudioMixerController:
   m_UpdateMode: 0
   m_ExposedParameters:
   - guid: 37b0de7c58874eb4aaecacea40a41843
-    name: BackgroundGroup
+    name: Background
   - guid: 4b9bf773faf4489418892218ff4a0278
-    name: EffectGroup
+    name: Effect
+  - guid: 7a02bcf08222eab4393641fc8d85be00
+    name: Master
   m_AudioMixerGroupViews:
   - guids:
     - d81db606c0ef2ce4aa0f2406a786e39e
-    - 7441d54fe5f06ce429d0235a804f98ad
     - 1f9ab48914089354f96e21a7532d39ac
+    - 7441d54fe5f06ce429d0235a804f98ad
     name: View
   m_CurrentViewIndex: 0
   m_TargetSnapshot: {fileID: 24500006}
@@ -45,7 +47,7 @@ AudioMixerGroupController:
   m_Send: 00000000000000000000000000000000
   m_Effects:
   - {fileID: 24400004}
-  m_UserColorIndex: 0
+  m_UserColorIndex: 5
   m_Mute: 0
   m_Solo: 0
   m_BypassEffects: 0
@@ -73,6 +75,7 @@ AudioMixerSnapshotController:
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: 6c3d78e60e02e2f4ab64f5b3cd47eb80
   m_FloatValues:
+    7a02bcf08222eab4393641fc8d85be00: -0.16685188
     37b0de7c58874eb4aaecacea40a41843: 0
   m_TransitionOverrides: {}
 --- !u!244 &126375333808037538

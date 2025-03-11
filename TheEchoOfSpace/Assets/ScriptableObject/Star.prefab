@@ -12,7 +12,10 @@ GameObject:
   - component: {fileID: 348261098360722946}
   - component: {fileID: 5289885931756944654}
   - component: {fileID: 8530435872112552498}
-  m_Layer: 0
+  - component: {fileID: 2754157327879656222}
+  - component: {fileID: 5123620524046733881}
+  - component: {fileID: 1167695037787507656}
+  m_Layer: 6
   m_Name: Star
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29,7 +32,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -108,3 +111,53 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2754157327879656222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4305036522980485765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 898c4efcf7d16d745bb1ce6da8d0ec10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item:
+    item: {fileID: 11400000, guid: 95d3ca3a4e0b84b42a6eda8b3c77e3f9, type: 2}
+    count: 2
+--- !u!114 &5123620524046733881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4305036522980485765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afe84e748c096ec4cbeae837dd1350a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyerTarget: {fileID: 4305036522980485765}
+  delay: 2
+--- !u!114 &1167695037787507656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4305036522980485765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 0, b: 0, a: 1}
+  selectedColor: {r: 1, g: 1, b: 1, a: 1}
+  unselectedColor: {r: 1, g: 0, b: 0, a: 1}
+  isSelected: 0
+  outlineWidth: 5
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []

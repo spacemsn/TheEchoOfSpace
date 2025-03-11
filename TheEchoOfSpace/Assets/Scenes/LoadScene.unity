@@ -787,7 +787,7 @@ MonoBehaviour:
   effectSours:
   - {fileID: 703982843}
   - {fileID: 877882627}
-  effectMixer: {fileID: 24100000, guid: 24cd3c19053743b4ab10540950665ae3, type: 2}
+  MusicMixer: {fileID: 24100000, guid: 24cd3c19053743b4ab10540950665ae3, type: 2}
 --- !u!1 &1943157386
 GameObject:
   m_ObjectHideFlags: 0
